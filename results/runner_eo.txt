@@ -1,0 +1,793 @@
+Seed set to 0
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+Seed set to 1
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+Seed set to 2
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+Seed set to 3
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+Seed set to 4
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+On experiment 0
+
+Epoch: 0
+loss_reg0: 0.003865659236907959
+loss_reg: 0.23402465879917145
+loss_sup: 0.6929107904434204
+ap_test: 0.7478274381913147
+gap_test: 0.04225536368393512
+
+Epoch: 1
+loss_reg0: 0.04517701268196106
+loss_reg: 0.07311704754829407
+loss_sup: 0.41683444380760193
+ap_test: 0.7679325591255168
+gap_test: 0.05332085356121952
+
+Epoch: 2
+loss_reg0: 0.030202239751815796
+loss_reg: 0.053085990250110626
+loss_sup: 0.42684513330459595
+ap_test: 0.7735522787825773
+gap_test: 0.05459848172993559
+
+Epoch: 3
+loss_reg0: 0.01721176505088806
+loss_reg: 0.04647313058376312
+loss_sup: 0.40911436080932617
+ap_test: 0.7611977036758186
+gap_test: 0.060701203558346406
+
+Epoch: 4
+loss_reg0: 0.05692067742347717
+loss_reg: 0.10449450463056564
+loss_sup: 0.4116765856742859
+ap_test: 0.7767740070101687
+gap_test: 0.0654525718832574
+
+Epoch: 5
+loss_reg0: 0.04917974770069122
+loss_reg: 0.0663888230919838
+loss_sup: 0.399468332529068
+ap_test: 0.7709874898902167
+gap_test: 0.03492002750455919
+
+Epoch: 6
+loss_reg0: 0.016127437353134155
+loss_reg: 0.029332265257835388
+loss_sup: 0.40466004610061646
+ap_test: 0.7679536783521157
+gap_test: 0.02878074306645728
+
+Epoch: 7
+loss_reg0: 0.035665929317474365
+loss_reg: 0.056356530636548996
+loss_sup: 0.38937246799468994
+ap_test: 0.7705452367422665
+gap_test: 0.03535816869309649
+
+Epoch: 8
+loss_reg0: 0.011393308639526367
+loss_reg: 0.027386518195271492
+loss_sup: 0.3884263038635254
+ap_test: 0.771122663702163
+gap_test: 0.04129961341836136
+
+Epoch: 9
+loss_reg0: 0.022001296281814575
+loss_reg: 0.04718949645757675
+loss_sup: 0.37866342067718506
+ap_test: 0.7720031658742882
+gap_test: 0.05064352849458534
+--------INDEX---------
+idx:  7
+ap_test: 0.7705452367422665
+gap_test: 0.03535816869309649
+time costs:24.782671689987183 s
+On experiment 1
+
+Epoch: 0
+loss_reg0: 0.003983587026596069
+loss_reg: 0.15639013051986694
+loss_sup: 0.6921842098236084
+ap_test: 0.7355452714243761
+gap_test: 0.058564115629724744
+
+Epoch: 1
+loss_reg0: 0.01871180534362793
+loss_reg: 0.05125898867845535
+loss_sup: 0.42935889959335327
+ap_test: 0.7458010808050889
+gap_test: 0.041201464417414985
+
+Epoch: 2
+loss_reg0: 0.03513363003730774
+loss_reg: 0.08134955167770386
+loss_sup: 0.4220237731933594
+ap_test: 0.7507148391749059
+gap_test: 0.036342973613546214
+
+Epoch: 3
+loss_reg0: 0.05425703525543213
+loss_reg: 0.08187724649906158
+loss_sup: 0.39884817600250244
+ap_test: 0.7599829460995771
+gap_test: 0.062241511076506245
+
+Epoch: 4
+loss_reg0: 0.043432921171188354
+loss_reg: 0.07065747678279877
+loss_sup: 0.3911094665527344
+ap_test: 0.7582310307841866
+gap_test: 0.04541091029760971
+
+Epoch: 5
+loss_reg0: 0.0298517644405365
+loss_reg: 0.04927898570895195
+loss_sup: 0.3936673402786255
+ap_test: 0.7546546425553592
+gap_test: 0.07579694063299336
+
+Epoch: 6
+loss_reg0: 0.04138195514678955
+loss_reg: 0.06210651621222496
+loss_sup: 0.4032069444656372
+ap_test: 0.7598502356541944
+gap_test: 0.04715254563555055
+
+Epoch: 7
+loss_reg0: 0.0410342812538147
+loss_reg: 0.05391155183315277
+loss_sup: 0.3769530653953552
+ap_test: 0.758120458921257
+gap_test: 0.04599612419248025
+
+Epoch: 8
+loss_reg0: 0.06001387536525726
+loss_reg: 0.08477923274040222
+loss_sup: 0.37048593163490295
+ap_test: 0.7552315264122325
+gap_test: 0.022177433836173155
+
+Epoch: 9
+loss_reg0: 0.026987731456756592
+loss_reg: 0.05004528909921646
+loss_sup: 0.36873868107795715
+ap_test: 0.7582827356851183
+gap_test: 0.04994609352217241
+--------INDEX---------
+idx:  8
+ap_test: 0.7552315264122325
+gap_test: 0.022177433836173155
+time costs:22.574459552764893 s
+On experiment 2
+
+Epoch: 0
+loss_reg0: 0.003995627164840698
+loss_reg: 0.2110917717218399
+loss_sup: 0.6927812099456787
+ap_test: 0.7547873704062559
+gap_test: 0.04377602792455074
+
+Epoch: 1
+loss_reg0: 0.04064074158668518
+loss_reg: 0.07301769405603409
+loss_sup: 0.41288429498672485
+ap_test: 0.7531803189660522
+gap_test: 0.0328616045588066
+
+Epoch: 2
+loss_reg0: 0.04558202624320984
+loss_reg: 0.08882568776607513
+loss_sup: 0.3837747871875763
+ap_test: 0.7585934801185905
+gap_test: 0.037371016856614814
+
+Epoch: 3
+loss_reg0: 0.051223427057266235
+loss_reg: 0.09291017800569534
+loss_sup: 0.41226834058761597
+ap_test: 0.754180605904061
+gap_test: 0.01956869627662372
+
+Epoch: 4
+loss_reg0: 0.005201458930969238
+loss_reg: 0.03845140337944031
+loss_sup: 0.4043766260147095
+ap_test: 0.7523984315484574
+gap_test: 0.05148158121999458
+
+Epoch: 5
+loss_reg0: 0.03217107057571411
+loss_reg: 0.06128329783678055
+loss_sup: 0.37526699900627136
+ap_test: 0.7548690239378154
+gap_test: 0.04946342399564174
+
+Epoch: 6
+loss_reg0: 0.028157398104667664
+loss_reg: 0.046516165137290955
+loss_sup: 0.3755181133747101
+ap_test: 0.7605566946588362
+gap_test: 0.03701089866807805
+
+Epoch: 7
+loss_reg0: 0.029034435749053955
+loss_reg: 0.052949436008930206
+loss_sup: 0.36257240176200867
+ap_test: 0.7632507796653939
+gap_test: 0.03910350861562853
+
+Epoch: 8
+loss_reg0: 0.03174684941768646
+loss_reg: 0.05172387510538101
+loss_sup: 0.36575332283973694
+ap_test: 0.7611129746216344
+gap_test: 0.04363393801499024
+
+Epoch: 9
+loss_reg0: 0.004713952541351318
+loss_reg: 0.01778564415872097
+loss_sup: 0.36571455001831055
+ap_test: 0.761390803322741
+gap_test: 0.04191378203590626
+--------INDEX---------
+idx:  3
+ap_test: 0.754180605904061
+gap_test: 0.01956869627662372
+time costs:22.452397346496582 s
+On experiment 3
+
+Epoch: 0
+loss_reg0: 0.005576282739639282
+loss_reg: 0.206681489944458
+loss_sup: 0.6930989027023315
+ap_test: 0.7453033429732665
+gap_test: 0.06646463175247364
+
+Epoch: 1
+loss_reg0: 0.04857322573661804
+loss_reg: 0.07996118068695068
+loss_sup: 0.419301837682724
+ap_test: 0.7541341672019304
+gap_test: 0.04983108601754602
+
+Epoch: 2
+loss_reg0: 0.03215324878692627
+loss_reg: 0.06895238161087036
+loss_sup: 0.40056300163269043
+ap_test: 0.7578953189639799
+gap_test: 0.057151666052965344
+
+Epoch: 3
+loss_reg0: 0.0278339684009552
+loss_reg: 0.05125065892934799
+loss_sup: 0.39120611548423767
+ap_test: 0.7602962465157127
+gap_test: 0.049690811430040976
+
+Epoch: 4
+loss_reg0: 0.023640543222427368
+loss_reg: 0.03827822953462601
+loss_sup: 0.39092937111854553
+ap_test: 0.7615861716169791
+gap_test: 0.043163659530197046
+
+Epoch: 5
+loss_reg0: 0.05235792696475983
+loss_reg: 0.07363922894001007
+loss_sup: 0.3896491527557373
+ap_test: 0.7603482657437111
+gap_test: 0.052737071034416605
+
+Epoch: 6
+loss_reg0: 0.05022561550140381
+loss_reg: 0.10163967311382294
+loss_sup: 0.4084227979183197
+ap_test: 0.7673608593340242
+gap_test: 0.08296584313794256
+
+Epoch: 7
+loss_reg0: 0.031126081943511963
+loss_reg: 0.047700390219688416
+loss_sup: 0.38694247603416443
+ap_test: 0.7593667155960138
+gap_test: 0.05105546967324637
+
+Epoch: 8
+loss_reg0: 0.030841365456581116
+loss_reg: 0.055955447256565094
+loss_sup: 0.3773033022880554
+ap_test: 0.759593344231238
+gap_test: 0.04919473619610387
+
+Epoch: 9
+loss_reg0: 0.017536193132400513
+loss_reg: 0.0399416983127594
+loss_sup: 0.3757455050945282
+ap_test: 0.7572879485328755
+gap_test: 0.015910663272568293
+--------INDEX---------
+idx:  1
+ap_test: 0.7541341672019304
+gap_test: 0.04983108601754602
+time costs:22.837921142578125 s
+On experiment 4
+
+Epoch: 0
+loss_reg0: 0.009233832359313965
+loss_reg: 0.18849098682403564
+loss_sup: 0.6907606720924377
+ap_test: 0.7436871876311273
+gap_test: 0.07825466094288369
+
+Epoch: 1
+loss_reg0: 0.032535284757614136
+loss_reg: 0.07742874324321747
+loss_sup: 0.4309338629245758
+ap_test: 0.7567240690828593
+gap_test: 0.06248907533647963
+
+Epoch: 2
+loss_reg0: 0.03371964395046234
+loss_reg: 0.05947238206863403
+loss_sup: 0.38836008310317993
+ap_test: 0.7564945220368935
+gap_test: 0.0704392677586887
+
+Epoch: 3
+loss_reg0: 0.052982524037361145
+loss_reg: 0.08079977333545685
+loss_sup: 0.3926483988761902
+ap_test: 0.7611990142937249
+gap_test: 0.04741950583272725
+
+Epoch: 4
+loss_reg0: 0.009361356496810913
+loss_reg: 0.0460522286593914
+loss_sup: 0.3962707221508026
+ap_test: 0.7689175543913208
+gap_test: 0.06854127731087159
+
+Epoch: 5
+loss_reg0: 0.028240621089935303
+loss_reg: 0.07393241673707962
+loss_sup: 0.3888668417930603
+ap_test: 0.7689106759672744
+gap_test: 0.05680099628278476
+
+Epoch: 6
+loss_reg0: 0.016191139817237854
+loss_reg: 0.03269533812999725
+loss_sup: 0.3694840371608734
+ap_test: 0.7720281518040878
+gap_test: 0.08061679962538704
+
+Epoch: 7
+loss_reg0: 0.032283931970596313
+loss_reg: 0.05342530831694603
+loss_sup: 0.39524319767951965
+ap_test: 0.7634251544033357
+gap_test: Seed set to 5
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+Seed set to 6
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+Seed set to 7
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+Seed set to 8
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+Seed set to 9
+/workspace/RUNNER/dataset.py:61: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df['y'] = df['y'].replace({' <=50K.': 0, ' >50K.': 1, ' >50K': 1, ' <=50K': 0 })
+0.06636270179149661
+
+Epoch: 8
+loss_reg0: 0.047244593501091
+loss_reg: 0.07370352745056152
+loss_sup: 0.3841930627822876
+ap_test: 0.7679437191057183
+gap_test: 0.06139321992281044
+
+Epoch: 9
+loss_reg0: 0.021833106875419617
+loss_reg: 0.033190347254276276
+loss_sup: 0.36750689148902893
+ap_test: 0.7653278862433287
+gap_test: 0.05778591510906883
+--------INDEX---------
+idx:  1
+ap_test: 0.7567240690828593
+gap_test: 0.06248907533647963
+time costs:22.685149669647217 s
+On experiment 5
+
+Epoch: 0
+loss_reg0: 0.004408091306686401
+loss_reg: 0.11317766457796097
+loss_sup: 0.6905746459960938
+ap_test: 0.7353546658401222
+gap_test: 0.1330733313540795
+
+Epoch: 1
+loss_reg0: 0.06986618041992188
+loss_reg: 0.11366532742977142
+loss_sup: 0.43135860562324524
+ap_test: 0.7400352042697231
+gap_test: 0.11577960109038898
+
+Epoch: 2
+loss_reg0: 0.035328030586242676
+loss_reg: 0.061188314110040665
+loss_sup: 0.41491830348968506
+ap_test: 0.7350253864862434
+gap_test: 0.0925076246255162
+
+Epoch: 3
+loss_reg0: 0.039914071559906006
+loss_reg: 0.08199864625930786
+loss_sup: 0.4220533072948456
+ap_test: 0.745070068427544
+gap_test: 0.09889071819923889
+
+Epoch: 4
+loss_reg0: 0.008888989686965942
+loss_reg: 0.04694407433271408
+loss_sup: 0.40913161635398865
+ap_test: 0.753262115400646
+gap_test: 0.07201560011875519
+
+Epoch: 5
+loss_reg0: 0.040450260043144226
+loss_reg: 0.07092658430337906
+loss_sup: 0.37227728962898254
+ap_test: 0.752686128766454
+gap_test: 0.05742085233866834
+
+Epoch: 6
+loss_reg0: 0.028146982192993164
+loss_reg: 0.04870537668466568
+loss_sup: 0.389113187789917
+ap_test: 0.7523224379558804
+gap_test: 0.08420825348843486
+
+Epoch: 7
+loss_reg0: 0.024772733449935913
+loss_reg: 0.039715979248285294
+loss_sup: 0.3834550976753235
+ap_test: 0.7566373580692464
+gap_test: 0.0678408197702638
+
+Epoch: 8
+loss_reg0: 0.0604495108127594
+loss_reg: 0.08459905534982681
+loss_sup: 0.38770240545272827
+ap_test: 0.7582651710131134
+gap_test: 0.0741815335618472
+
+Epoch: 9
+loss_reg0: 0.05053342878818512
+loss_reg: 0.0778370276093483
+loss_sup: 0.39456647634506226
+ap_test: 0.7538544720736581
+gap_test: 0.06122641764054948
+--------INDEX---------
+idx:  1
+ap_test: 0.7400352042697231
+gap_test: 0.11577960109038898
+time costs:22.398852348327637 s
+On experiment 6
+
+Epoch: 0
+loss_reg0: 0.0027713775634765625
+loss_reg: 0.16718220710754395
+loss_sup: 0.6966243982315063
+ap_test: 0.7666546521892418
+gap_test: 0.10181013785103454
+
+Epoch: 1
+loss_reg0: 0.038770198822021484
+loss_reg: 0.06382950395345688
+loss_sup: 0.4024299681186676
+ap_test: 0.7679711139007067
+gap_test: 0.1093231541179962
+
+Epoch: 2
+loss_reg0: 0.026783481240272522
+loss_reg: 0.07603224366903305
+loss_sup: 0.39604267477989197
+ap_test: 0.7784691068794789
+gap_test: 0.1004238342310586
+
+Epoch: 3
+loss_reg0: 0.02745455503463745
+loss_reg: 0.07455616444349289
+loss_sup: 0.41161012649536133
+ap_test: 0.776261868736155
+gap_test: 0.09348182518486547
+
+Epoch: 4
+loss_reg0: 0.008789628744125366
+loss_reg: 0.03162146732211113
+loss_sup: 0.3960328698158264
+ap_test: 0.7842136417909937
+gap_test: 0.08709733499989514
+
+Epoch: 5
+loss_reg0: 0.004097163677215576
+loss_reg: 0.02344737946987152
+loss_sup: 0.3896130323410034
+ap_test: 0.7866738488592198
+gap_test: 0.06189958066188872
+
+Epoch: 6
+loss_reg0: 0.03551444411277771
+loss_reg: 0.059303708374500275
+loss_sup: 0.3871343433856964
+ap_test: 0.7863306067663407
+gap_test: 0.08495418453874315
+
+Epoch: 7
+loss_reg0: 0.025592684745788574
+loss_reg: 0.05104319378733635
+loss_sup: 0.39378878474235535
+ap_test: 0.7840691627625397
+gap_test: 0.07909274296282309
+
+Epoch: 8
+loss_reg0: 0.03743317723274231
+loss_reg: 0.07082141190767288
+loss_sup: 0.3753601312637329
+ap_test: 0.7768410821232284
+gap_test: 0.10130807113461082
+
+Epoch: 9
+loss_reg0: 0.05593447387218475
+loss_reg: 0.0942135900259018
+loss_sup: 0.385741263628006
+ap_test: 0.7869928821707016
+gap_test: 0.05942807034239664
+--------INDEX---------
+idx:  6
+ap_test: 0.7863306067663407
+gap_test: 0.08495418453874315
+time costs:22.731422901153564 s
+On experiment 7
+
+Epoch: 0
+loss_reg0: 0.0018655061721801758
+loss_reg: 0.1165224015712738
+loss_sup: 0.6944244503974915
+ap_test: 0.7471842511954463
+gap_test: 0.06642475171886941
+
+Epoch: 1
+loss_reg0: 0.015951693058013916
+loss_reg: 0.05060606449842453
+loss_sup: 0.4211568534374237
+ap_test: 0.7637605588146512
+gap_test: 0.05439668983135243
+
+Epoch: 2
+loss_reg0: 0.015275359153747559
+loss_reg: 0.03685242682695389
+loss_sup: 0.40877628326416016
+ap_test: 0.7689655927199115
+gap_test: 0.06411476261609406
+
+Epoch: 3
+loss_reg0: 0.027603060007095337
+loss_reg: 0.05864204466342926
+loss_sup: 0.41636818647384644
+ap_test: 0.7686577293272769
+gap_test: 0.052117836808036194
+
+Epoch: 4
+loss_reg0: 0.03942251205444336
+loss_reg: 0.06297985464334488
+loss_sup: 0.40673577785491943
+ap_test: 0.7635194814769815
+gap_test: 0.08093964858670744
+
+Epoch: 5
+loss_reg0: 0.041178494691848755
+loss_reg: 0.061999864876270294
+loss_sup: 0.40646684169769287
+ap_test: 0.771846230105426
+gap_test: 0.04078797817756705
+
+Epoch: 6
+loss_reg0: 0.06725645065307617
+loss_reg: 0.1154148057103157
+loss_sup: 0.40361258387565613
+ap_test: 0.770398343216389
+gap_test: 0.029755538579067986
+
+Epoch: 7
+loss_reg0: 0.03611740469932556
+loss_reg: 0.05347924679517746
+loss_sup: 0.38499221205711365
+ap_test: 0.7650899428416651
+gap_test: 0.03919022154316276
+
+Epoch: 8
+loss_reg0: 0.008104175329208374
+loss_reg: 0.020515602082014084
+loss_sup: 0.380310982465744
+ap_test: 0.7648325247012902
+gap_test: 0.061344537815126055
+
+Epoch: 9
+loss_reg0: 0.009244412183761597
+loss_reg: 0.02689850702881813
+loss_sup: 0.38393616676330566
+ap_test: 0.7747469813985794
+gap_test: 0.06166569245091036
+--------INDEX---------
+idx:  1
+ap_test: 0.7637605588146512
+gap_test: 0.05439668983135243
+time costs:22.451120376586914 s
+On experiment 8
+
+Epoch: 0
+loss_reg0: 0.0056119561195373535
+loss_reg: 0.23838019371032715
+loss_sup: 0.697860836982727
+ap_test: 0.7558430367116027
+gap_test: 0.04902717153987024
+
+Epoch: 1
+loss_reg0: 0.033606916666030884
+loss_reg: 0.06642802059650421
+loss_sup: 0.42690837383270264
+ap_test: 0.76676991063573
+gap_test: 0.05393057907154564
+
+Epoch: 2
+loss_reg0: 0.030470192432403564
+loss_reg: 0.0713793933391571
+loss_sup: 0.40154263377189636
+ap_test: 0.7683780435212365
+gap_test: 0.04909448336448663
+
+Epoch: 3
+loss_reg0: 0.037190526723861694
+loss_reg: 0.08583506941795349
+loss_sup: 0.38957998156547546
+ap_test: 0.7730935410993959
+gap_test: 0.04264808169929557
+
+Epoch: 4
+loss_reg0: 0.04649609327316284
+loss_reg: 0.06586774438619614
+loss_sup: 0.38507935404777527
+ap_test: 0.7699254592409575
+gap_test: 0.0328235742980901
+
+Epoch: 5
+loss_reg0: 0.004014745354652405
+loss_reg: 0.037940461188554764
+loss_sup: 0.3973584473133087
+ap_test: 0.7771500195193148
+gap_test: 0.06813079875216016
+
+Epoch: 6
+loss_reg0: 0.07078978419303894
+loss_reg: 0.1000763475894928
+loss_sup: 0.4021569788455963
+ap_test: 0.7722488931633353
+gap_test: 0.03937051362374078
+
+Epoch: 7
+loss_reg0: 0.021053552627563477
+loss_reg: 0.04506359621882439
+loss_sup: 0.3833213150501251
+ap_test: 0.7757657537143064
+gap_test: 0.07413883340440336
+
+Epoch: 8
+loss_reg0: 0.061119332909584045
+loss_reg: 0.0893120989203453
+loss_sup: 0.38774093985557556
+ap_test: 0.7723918473314104
+gap_test: 0.037806808159573935
+
+Epoch: 9
+loss_reg0: 0.013821810483932495
+loss_reg: 0.031213287264108658
+loss_sup: 0.36841821670532227
+ap_test: 0.7764002082177419
+gap_test: 0.06254272056018134
+--------INDEX---------
+idx:  4
+ap_test: 0.7699254592409575
+gap_test: 0.0328235742980901
+time costs:22.626014471054077 s
+On experiment 9
+
+Epoch: 0
+loss_reg0: 0.0037438273429870605
+loss_reg: 0.16631005704402924
+loss_sup: 0.6903295516967773
+ap_test: 0.7545097684625885
+gap_test: 0.025076340648940154
+
+Epoch: 1
+loss_reg0: 0.03168970346450806
+loss_reg: 0.057232216000556946
+loss_sup: 0.40696224570274353
+ap_test: 0.7647545184087391
+gap_test: 0.03939356059929644
+
+Epoch: 2
+loss_reg0: 0.04037165641784668
+loss_reg: 0.07769978046417236
+loss_sup: 0.4047274589538574
+ap_test: 0.7731443466918417
+gap_test: 0.05756516040146781
+
+Epoch: 3
+loss_reg0: 0.02389201521873474
+loss_reg: 0.05246517434716225
+loss_sup: 0.405880868434906
+ap_test: 0.7643804632522313
+gap_test: 0.06684047929427306
+
+Epoch: 4
+loss_reg0: 0.024486273527145386
+loss_reg: 0.047188542783260345
+loss_sup: 0.40751150250434875
+ap_test: 0.7638610516250969
+gap_test: 0.06333595242772194
+
+Epoch: 5
+loss_reg0: 0.020709186792373657
+loss_reg: 0.05033404380083084
+loss_sup: 0.4137648642063141
+ap_test: 0.7751140455138409
+gap_test: 0.04897277964988375
+
+Epoch: 6
+loss_reg0: 0.056724339723587036
+loss_reg: 0.09294615685939789
+loss_sup: 0.40121278166770935
+ap_test: 0.7720751469255813
+gap_test: 0.0569191711756758
+
+Epoch: 7
+loss_reg0: 0.00659981369972229
+loss_reg: 0.029322372749447823
+loss_sup: 0.39959120750427246
+ap_test: 0.7692603007446788
+gap_test: 0.07906688809919227
+
+Epoch: 8
+loss_reg0: 0.03442370891571045
+loss_reg: 0.05621901899576187
+loss_sup: 0.4082420766353607
+ap_test: 0.7726370972006059
+gap_test: 0.025897783888997994
+
+Epoch: 9
+loss_reg0: 0.03238561749458313
+loss_reg: 0.04577358067035675
+loss_sup: 0.3661242425441742
+ap_test: 0.767274516338368
+gap_test: 0.06069602433376786
+--------INDEX---------
+idx:  3
+ap_test: 0.7643804632522313
+gap_test: 0.06684047929427306
+time costs:22.559882640838623 s
+--------AVG---------
+Average Precision: 0.761525
+eo gap: 0.054422
