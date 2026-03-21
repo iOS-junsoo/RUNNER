@@ -1,0 +1,17 @@
+{
+  "measurement_source": "checkpoint",
+  "checkpoint": "paper_reproduction_results/phase0_wavy_van_seed0/checkpoints/celeba_wavy_van_eo_seed0_best.pt",
+  "task": "wavy_hair",
+  "model_name": "resnet18",
+  "seed": 0,
+  "epoch": 0,
+  "mean_bce_loss": 0.39070937127343713,
+  "average_precision": 0.8679287748838791,
+  "eo_gap": 0.3720535040882176,
+  "saved_metrics": {
+    "ap_val": 0.8373793442040789,
+    "gap_val": 0.3018329474094138,
+    "ap_test": 0.8679291402513519,
+    "gap_test": 0.3720535040882176
+  }
+}

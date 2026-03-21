@@ -66,6 +66,52 @@ def resolve_model_name(task: str, model_name: str) -> str:
     return model_name
 
 
+def checkpoint_path(results_dir: str, task: str, method: str, mode: str, seed: int) -> str:
+    checkpoint_dir = os.path.join(results_dir, "checkpoints")
+    os.makedirs(checkpoint_dir, exist_ok=True)
+    return os.path.join(
+        checkpoint_dir,
+        f"celeba_{TASK_FILE_STEM[task]}_{method}_{mode}_seed{seed}_best.pt",
+    )
+
+
+def save_checkpoint(
+    path: str,
+    model: nn.Module,
+    optimizer: optim.Optimizer,
+    *,
+    seed: int,
+    epoch: int,
+    task: str,
+    method: str,
+    mode: str,
+    model_name: str,
+    ap_val: float,
+    gap_val: float,
+    ap_test: float,
+    gap_test: float,
+) -> None:
+    torch.save(
+        {
+            "seed": seed,
+            "epoch": epoch,
+            "task": task,
+            "method": method,
+            "mode": mode,
+            "model_name": model_name,
+            "model_state_dict": model.state_dict(),
+            "optimizer_state_dict": optimizer.state_dict(),
+            "metrics": {
+                "ap_val": ap_val,
+                "gap_val": gap_val,
+                "ap_test": ap_test,
+                "gap_test": gap_test,
+            },
+        },
+        path,
+    )
+
+
 def run_experiments(args) -> None:
     device = resolve_device(args.device)
     model_name = resolve_model_name(args.task, args.model)
@@ -108,6 +154,8 @@ def run_experiments(args) -> None:
             ap_test_epoch = []
             gap_test_epoch = []
             start_time = time.time()
+            best_gap_val = float("inf")
+            best_checkpoint = checkpoint_path(args.results_dir, args.task, args.method, args.mode, seed)
 
             for epoch in range(args.epochs):
                 logger.log("")
@@ -194,6 +242,25 @@ def run_experiments(args) -> None:
                 logger.log(f"ap_test: {ap_test:.6f}")
                 logger.log(f"gap_test: {gap_test:.6f}")
 
+                if gap_val < best_gap_val:
+                    best_gap_val = gap_val
+                    save_checkpoint(
+                        best_checkpoint,
+                        model,
+                        optimizer,
+                        seed=seed,
+                        epoch=epoch,
+                        task=args.task,
+                        method=args.method,
+                        mode=args.mode,
+                        model_name=model_name,
+                        ap_val=ap_val,
+                        gap_val=gap_val,
+                        ap_test=ap_test,
+                        gap_test=gap_test,
+                    )
+                    logger.log(f"checkpoint_saved: {best_checkpoint}")
+
             best_idx = int(np.argmin(gap_val_epoch))
             ap_results.append(ap_test_epoch[best_idx])
             gap_results.append(gap_test_epoch[best_idx])
@@ -226,7 +293,7 @@ def build_parser():
     parser.add_argument("--eval_batch_size", default=128, type=int, help="Evaluation batch size")
     parser.add_argument("--steps_per_epoch", default=None, type=int, help="Optional override for training steps per epoch")
     parser.add_argument("--data_root", default="/workspace/RUNNER/Data", type=str, help="CelebA root path")
-    parser.add_argument("--results_dir", default="results", type=str, help="Results directory")
+    parser.add_argument("--results_dir", default="paper_reproduction_results", type=str, help="Results directory")
     parser.add_argument("--image_size", default=224, type=int, help="Center crop size")
     parser.add_argument("--train_num_workers", default=8, type=int, help="Training dataloader workers")
     parser.add_argument("--num_workers", default=4, type=int, help="Evaluation dataloader workers")

@@ -1,0 +1,12 @@
+{
+  "measurement_source": "pretrained_init",
+  "checkpoint": null,
+  "task": "wavy_hair",
+  "model_name": "resnet18",
+  "seed": 0,
+  "epoch": null,
+  "mean_bce_loss": 0.7095972857462381,
+  "average_precision": 0.38907580056662605,
+  "eo_gap": 0.08500962108702825,
+  "saved_metrics": {}
+}

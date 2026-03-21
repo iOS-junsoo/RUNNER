@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Local datasets and large binary artifacts
+Data/
+Miniconda3-latest-Linux-x86_64.sh
+paper_reproduction_results/**/checkpoints/

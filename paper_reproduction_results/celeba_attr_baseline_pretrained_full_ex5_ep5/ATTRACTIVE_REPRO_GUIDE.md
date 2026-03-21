@@ -25,8 +25,8 @@
 
 ## 결과 저장 위치
 
-- 디렉터리: `results/celeba_attr_baseline_pretrained_full_ex5_ep5`
-- 로그 파일: `results/celeba_attr_baseline_pretrained_full_ex5_ep5/celeba_attr_eo.txt`
+- 디렉터리: `paper_reproduction_results/celeba_attr_baseline_pretrained_full_ex5_ep5`
+- 로그 파일: `paper_reproduction_results/celeba_attr_baseline_pretrained_full_ex5_ep5/celeba_attr_eo.txt`
 
 ## 실행 전 권장 사항
 
@@ -36,12 +36,11 @@
 cd /workspace/RUNNER
 pkill -f "python -u celeba_main.py|python .*celeba_main.py" || true
 ```
-
 기존 attractive baseline 결과를 완전히 새로 시작하고 싶으면 로그 삭제:
 
 ```bash
 cd /workspace/RUNNER
-rm -f results/celeba_attr_baseline_pretrained_full_ex5_ep5/celeba_attr_eo.txt
+rm -f paper_reproduction_results/celeba_attr_baseline_pretrained_full_ex5_ep5/celeba_attr_eo.txt
 ```
 
 ## 재현 실행 명령
@@ -62,14 +61,14 @@ python -u celeba_main.py \
   --num_workers 4 \
   --log_interval 100 \
   --no-amp \
-  --results_dir results/celeba_attr_baseline_pretrained_full_ex5_ep5
+  --results_dir paper_reproduction_results/celeba_attr_baseline_pretrained_full_ex5_ep5
 ```
 
 ## 진행 상황 확인
 
 ```bash
 cd /workspace/RUNNER
-tail -f results/celeba_attr_baseline_pretrained_full_ex5_ep5/celeba_attr_eo.txt
+tail -f paper_reproduction_results/celeba_attr_baseline_pretrained_full_ex5_ep5/celeba_attr_eo.txt
 ```
 
 ## 로그 해석

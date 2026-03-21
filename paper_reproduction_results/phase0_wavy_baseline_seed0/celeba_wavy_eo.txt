@@ -1,0 +1,210 @@
+Task: wavy_hair
+Model: resnet18
+Method: van
+Mode: eo
+Device: cuda
+Pretrained: True
+AMP: False
+Train workers: 8
+Eval workers: 4
+Seed set to 0
+On experiment 0
+
+Epoch: 0
+[seed 0][epoch 0] step 10/317 loss_sup=0.412505 loss_reg=0.000000
+[seed 0][epoch 0] step 20/317 loss_sup=0.352931 loss_reg=0.000000
+[seed 0][epoch 0] step 30/317 loss_sup=0.368778 loss_reg=0.000000
+[seed 0][epoch 0] step 40/317 loss_sup=0.293110 loss_reg=0.000000
+[seed 0][epoch 0] step 50/317 loss_sup=0.330255 loss_reg=0.000000
+[seed 0][epoch 0] step 60/317 loss_sup=0.313090 loss_reg=0.000000
+[seed 0][epoch 0] step 70/317 loss_sup=0.335523 loss_reg=0.000000
+[seed 0][epoch 0] step 80/317 loss_sup=0.290088 loss_reg=0.000000
+[seed 0][epoch 0] step 90/317 loss_sup=0.286667 loss_reg=0.000000
+[seed 0][epoch 0] step 100/317 loss_sup=0.356036 loss_reg=0.000000
+[seed 0][epoch 0] step 110/317 loss_sup=0.276144 loss_reg=0.000000
+[seed 0][epoch 0] step 120/317 loss_sup=0.332103 loss_reg=0.000000
+[seed 0][epoch 0] step 130/317 loss_sup=0.312275 loss_reg=0.000000
+[seed 0][epoch 0] step 140/317 loss_sup=0.293648 loss_reg=0.000000
+[seed 0][epoch 0] step 150/317 loss_sup=0.360210 loss_reg=0.000000
+[seed 0][epoch 0] step 160/317 loss_sup=0.337590 loss_reg=0.000000
+[seed 0][epoch 0] step 170/317 loss_sup=0.279032 loss_reg=0.000000
+[seed 0][epoch 0] step 180/317 loss_sup=0.310481 loss_reg=0.000000
+[seed 0][epoch 0] step 190/317 loss_sup=0.272571 loss_reg=0.000000
+[seed 0][epoch 0] step 200/317 loss_sup=0.317483 loss_reg=0.000000
+[seed 0][epoch 0] step 210/317 loss_sup=0.291216 loss_reg=0.000000
+[seed 0][epoch 0] step 220/317 loss_sup=0.286438 loss_reg=0.000000
+[seed 0][epoch 0] step 230/317 loss_sup=0.312427 loss_reg=0.000000
+[seed 0][epoch 0] step 240/317 loss_sup=0.255472 loss_reg=0.000000
+[seed 0][epoch 0] step 250/317 loss_sup=0.322407 loss_reg=0.000000
+[seed 0][epoch 0] step 260/317 loss_sup=0.259444 loss_reg=0.000000
+[seed 0][epoch 0] step 270/317 loss_sup=0.311432 loss_reg=0.000000
+[seed 0][epoch 0] step 280/317 loss_sup=0.295781 loss_reg=0.000000
+[seed 0][epoch 0] step 290/317 loss_sup=0.294651 loss_reg=0.000000
+[seed 0][epoch 0] step 300/317 loss_sup=0.231682 loss_reg=0.000000
+[seed 0][epoch 0] step 310/317 loss_sup=0.272563 loss_reg=0.000000
+[seed 0][epoch 0] step 317/317 loss_sup=0.283546 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.311681
+ap_test: 0.868370
+gap_test: 0.365937
+checkpoint_saved: paper_reproduction_results/phase0_wavy_baseline_seed0/checkpoints/celeba_wavy_van_eo_seed0_best.pt
+
+Epoch: 1
+[seed 0][epoch 1] step 10/317 loss_sup=0.251891 loss_reg=0.000000
+[seed 0][epoch 1] step 20/317 loss_sup=0.249707 loss_reg=0.000000
+[seed 0][epoch 1] step 30/317 loss_sup=0.247468 loss_reg=0.000000
+[seed 0][epoch 1] step 40/317 loss_sup=0.247683 loss_reg=0.000000
+[seed 0][epoch 1] step 50/317 loss_sup=0.262133 loss_reg=0.000000
+[seed 0][epoch 1] step 60/317 loss_sup=0.268559 loss_reg=0.000000
+[seed 0][epoch 1] step 70/317 loss_sup=0.242103 loss_reg=0.000000
+[seed 0][epoch 1] step 80/317 loss_sup=0.246943 loss_reg=0.000000
+[seed 0][epoch 1] step 90/317 loss_sup=0.260791 loss_reg=0.000000
+[seed 0][epoch 1] step 100/317 loss_sup=0.260581 loss_reg=0.000000
+[seed 0][epoch 1] step 110/317 loss_sup=0.212276 loss_reg=0.000000
+[seed 0][epoch 1] step 120/317 loss_sup=0.266582 loss_reg=0.000000
+[seed 0][epoch 1] step 130/317 loss_sup=0.217409 loss_reg=0.000000
+[seed 0][epoch 1] step 140/317 loss_sup=0.223459 loss_reg=0.000000
+[seed 0][epoch 1] step 150/317 loss_sup=0.243354 loss_reg=0.000000
+[seed 0][epoch 1] step 160/317 loss_sup=0.288175 loss_reg=0.000000
+[seed 0][epoch 1] step 170/317 loss_sup=0.201863 loss_reg=0.000000
+[seed 0][epoch 1] step 180/317 loss_sup=0.255609 loss_reg=0.000000
+[seed 0][epoch 1] step 190/317 loss_sup=0.209735 loss_reg=0.000000
+[seed 0][epoch 1] step 200/317 loss_sup=0.188237 loss_reg=0.000000
+[seed 0][epoch 1] step 210/317 loss_sup=0.210227 loss_reg=0.000000
+[seed 0][epoch 1] step 220/317 loss_sup=0.201068 loss_reg=0.000000
+[seed 0][epoch 1] step 230/317 loss_sup=0.180238 loss_reg=0.000000
+[seed 0][epoch 1] step 240/317 loss_sup=0.259531 loss_reg=0.000000
+[seed 0][epoch 1] step 250/317 loss_sup=0.213283 loss_reg=0.000000
+[seed 0][epoch 1] step 260/317 loss_sup=0.214475 loss_reg=0.000000
+[seed 0][epoch 1] step 270/317 loss_sup=0.164213 loss_reg=0.000000
+[seed 0][epoch 1] step 280/317 loss_sup=0.181452 loss_reg=0.000000
+[seed 0][epoch 1] step 290/317 loss_sup=0.219781 loss_reg=0.000000
+[seed 0][epoch 1] step 300/317 loss_sup=0.168419 loss_reg=0.000000
+[seed 0][epoch 1] step 310/317 loss_sup=0.211746 loss_reg=0.000000
+[seed 0][epoch 1] step 317/317 loss_sup=0.162968 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.229474
+ap_test: 0.860953
+gap_test: 0.428592
+
+Epoch: 2
+[seed 0][epoch 2] step 10/317 loss_sup=0.235473 loss_reg=0.000000
+[seed 0][epoch 2] step 20/317 loss_sup=0.181288 loss_reg=0.000000
+[seed 0][epoch 2] step 30/317 loss_sup=0.228025 loss_reg=0.000000
+[seed 0][epoch 2] step 40/317 loss_sup=0.212189 loss_reg=0.000000
+[seed 0][epoch 2] step 50/317 loss_sup=0.188879 loss_reg=0.000000
+[seed 0][epoch 2] step 60/317 loss_sup=0.171084 loss_reg=0.000000
+[seed 0][epoch 2] step 70/317 loss_sup=0.217391 loss_reg=0.000000
+[seed 0][epoch 2] step 80/317 loss_sup=0.130284 loss_reg=0.000000
+[seed 0][epoch 2] step 90/317 loss_sup=0.171114 loss_reg=0.000000
+[seed 0][epoch 2] step 100/317 loss_sup=0.137658 loss_reg=0.000000
+[seed 0][epoch 2] step 110/317 loss_sup=0.134952 loss_reg=0.000000
+[seed 0][epoch 2] step 120/317 loss_sup=0.166767 loss_reg=0.000000
+[seed 0][epoch 2] step 130/317 loss_sup=0.154426 loss_reg=0.000000
+[seed 0][epoch 2] step 140/317 loss_sup=0.152382 loss_reg=0.000000
+[seed 0][epoch 2] step 150/317 loss_sup=0.159777 loss_reg=0.000000
+[seed 0][epoch 2] step 160/317 loss_sup=0.141916 loss_reg=0.000000
+[seed 0][epoch 2] step 170/317 loss_sup=0.132647 loss_reg=0.000000
+[seed 0][epoch 2] step 180/317 loss_sup=0.159852 loss_reg=0.000000
+[seed 0][epoch 2] step 190/317 loss_sup=0.137324 loss_reg=0.000000
+[seed 0][epoch 2] step 200/317 loss_sup=0.142004 loss_reg=0.000000
+[seed 0][epoch 2] step 210/317 loss_sup=0.114224 loss_reg=0.000000
+[seed 0][epoch 2] step 220/317 loss_sup=0.127451 loss_reg=0.000000
+[seed 0][epoch 2] step 230/317 loss_sup=0.145682 loss_reg=0.000000
+[seed 0][epoch 2] step 240/317 loss_sup=0.120892 loss_reg=0.000000
+[seed 0][epoch 2] step 250/317 loss_sup=0.149758 loss_reg=0.000000
+[seed 0][epoch 2] step 260/317 loss_sup=0.112729 loss_reg=0.000000
+[seed 0][epoch 2] step 270/317 loss_sup=0.113705 loss_reg=0.000000
+[seed 0][epoch 2] step 280/317 loss_sup=0.143535 loss_reg=0.000000
+[seed 0][epoch 2] step 290/317 loss_sup=0.130433 loss_reg=0.000000
+[seed 0][epoch 2] step 300/317 loss_sup=0.131630 loss_reg=0.000000
+[seed 0][epoch 2] step 310/317 loss_sup=0.116206 loss_reg=0.000000
+[seed 0][epoch 2] step 317/317 loss_sup=0.139125 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.152865
+ap_test: 0.850686
+gap_test: 0.421113
+
+Epoch: 3
+[seed 0][epoch 3] step 10/317 loss_sup=0.119575 loss_reg=0.000000
+[seed 0][epoch 3] step 20/317 loss_sup=0.102918 loss_reg=0.000000
+[seed 0][epoch 3] step 30/317 loss_sup=0.161442 loss_reg=0.000000
+[seed 0][epoch 3] step 40/317 loss_sup=0.136638 loss_reg=0.000000
+[seed 0][epoch 3] step 50/317 loss_sup=0.109947 loss_reg=0.000000
+[seed 0][epoch 3] step 60/317 loss_sup=0.095658 loss_reg=0.000000
+[seed 0][epoch 3] step 70/317 loss_sup=0.112237 loss_reg=0.000000
+[seed 0][epoch 3] step 80/317 loss_sup=0.088694 loss_reg=0.000000
+[seed 0][epoch 3] step 90/317 loss_sup=0.092236 loss_reg=0.000000
+[seed 0][epoch 3] step 100/317 loss_sup=0.115182 loss_reg=0.000000
+[seed 0][epoch 3] step 110/317 loss_sup=0.076037 loss_reg=0.000000
+[seed 0][epoch 3] step 120/317 loss_sup=0.099561 loss_reg=0.000000
+[seed 0][epoch 3] step 130/317 loss_sup=0.080425 loss_reg=0.000000
+[seed 0][epoch 3] step 140/317 loss_sup=0.080734 loss_reg=0.000000
+[seed 0][epoch 3] step 150/317 loss_sup=0.130046 loss_reg=0.000000
+[seed 0][epoch 3] step 160/317 loss_sup=0.085560 loss_reg=0.000000
+[seed 0][epoch 3] step 170/317 loss_sup=0.067819 loss_reg=0.000000
+[seed 0][epoch 3] step 180/317 loss_sup=0.091815 loss_reg=0.000000
+[seed 0][epoch 3] step 190/317 loss_sup=0.105441 loss_reg=0.000000
+[seed 0][epoch 3] step 200/317 loss_sup=0.087791 loss_reg=0.000000
+[seed 0][epoch 3] step 210/317 loss_sup=0.091586 loss_reg=0.000000
+[seed 0][epoch 3] step 220/317 loss_sup=0.058059 loss_reg=0.000000
+[seed 0][epoch 3] step 230/317 loss_sup=0.079673 loss_reg=0.000000
+[seed 0][epoch 3] step 240/317 loss_sup=0.095156 loss_reg=0.000000
+[seed 0][epoch 3] step 250/317 loss_sup=0.088890 loss_reg=0.000000
+[seed 0][epoch 3] step 260/317 loss_sup=0.051572 loss_reg=0.000000
+[seed 0][epoch 3] step 270/317 loss_sup=0.055511 loss_reg=0.000000
+[seed 0][epoch 3] step 280/317 loss_sup=0.123419 loss_reg=0.000000
+[seed 0][epoch 3] step 290/317 loss_sup=0.088381 loss_reg=0.000000
+[seed 0][epoch 3] step 300/317 loss_sup=0.068426 loss_reg=0.000000
+[seed 0][epoch 3] step 310/317 loss_sup=0.078092 loss_reg=0.000000
+[seed 0][epoch 3] step 317/317 loss_sup=0.051974 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.095363
+ap_test: 0.852669
+gap_test: 0.394082
+
+Epoch: 4
+[seed 0][epoch 4] step 10/317 loss_sup=0.082842 loss_reg=0.000000
+[seed 0][epoch 4] step 20/317 loss_sup=0.080870 loss_reg=0.000000
+[seed 0][epoch 4] step 30/317 loss_sup=0.058899 loss_reg=0.000000
+[seed 0][epoch 4] step 40/317 loss_sup=0.063755 loss_reg=0.000000
+[seed 0][epoch 4] step 50/317 loss_sup=0.040089 loss_reg=0.000000
+[seed 0][epoch 4] step 60/317 loss_sup=0.074254 loss_reg=0.000000
+[seed 0][epoch 4] step 70/317 loss_sup=0.054084 loss_reg=0.000000
+[seed 0][epoch 4] step 80/317 loss_sup=0.064416 loss_reg=0.000000
+[seed 0][epoch 4] step 90/317 loss_sup=0.075737 loss_reg=0.000000
+[seed 0][epoch 4] step 100/317 loss_sup=0.083007 loss_reg=0.000000
+[seed 0][epoch 4] step 110/317 loss_sup=0.056463 loss_reg=0.000000
+[seed 0][epoch 4] step 120/317 loss_sup=0.067021 loss_reg=0.000000
+[seed 0][epoch 4] step 130/317 loss_sup=0.041674 loss_reg=0.000000
+[seed 0][epoch 4] step 140/317 loss_sup=0.046486 loss_reg=0.000000
+[seed 0][epoch 4] step 150/317 loss_sup=0.065758 loss_reg=0.000000
+[seed 0][epoch 4] step 160/317 loss_sup=0.070133 loss_reg=0.000000
+[seed 0][epoch 4] step 170/317 loss_sup=0.037985 loss_reg=0.000000
+[seed 0][epoch 4] step 180/317 loss_sup=0.044708 loss_reg=0.000000
+[seed 0][epoch 4] step 190/317 loss_sup=0.053099 loss_reg=0.000000
+[seed 0][epoch 4] step 200/317 loss_sup=0.055033 loss_reg=0.000000
+[seed 0][epoch 4] step 210/317 loss_sup=0.065062 loss_reg=0.000000
+[seed 0][epoch 4] step 220/317 loss_sup=0.045229 loss_reg=0.000000
+[seed 0][epoch 4] step 230/317 loss_sup=0.068235 loss_reg=0.000000
+[seed 0][epoch 4] step 240/317 loss_sup=0.049938 loss_reg=0.000000
+[seed 0][epoch 4] step 250/317 loss_sup=0.035837 loss_reg=0.000000
+[seed 0][epoch 4] step 260/317 loss_sup=0.045454 loss_reg=0.000000
+[seed 0][epoch 4] step 270/317 loss_sup=0.033496 loss_reg=0.000000
+[seed 0][epoch 4] step 280/317 loss_sup=0.045703 loss_reg=0.000000
+[seed 0][epoch 4] step 290/317 loss_sup=0.045843 loss_reg=0.000000
+[seed 0][epoch 4] step 300/317 loss_sup=0.053455 loss_reg=0.000000
+[seed 0][epoch 4] step 310/317 loss_sup=0.074557 loss_reg=0.000000
+[seed 0][epoch 4] step 317/317 loss_sup=0.026192 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.057697
+ap_test: 0.851732
+gap_test: 0.399399
+--------INDEX---------
+idx: 1
+ap_test: 0.868370
+gap_test: 0.365937
+time costs:1493.008958 s
+--------AVG---------
+Average Precision: 0.868370 ± 0.000000
+eo gap: 0.365937 ± 0.000000

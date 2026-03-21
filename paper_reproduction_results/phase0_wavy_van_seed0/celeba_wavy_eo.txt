@@ -1,0 +1,70 @@
+Task: wavy_hair
+Model: resnet18
+Method: van
+Mode: eo
+Device: cuda
+Pretrained: True
+AMP: False
+Train workers: 8
+Eval workers: 4
+Seed set to 0
+On experiment 0
+
+Epoch: 0
+[seed 0][epoch 0] step 100/317 loss_sup=0.356605 loss_reg=0.000000
+[seed 0][epoch 0] step 200/317 loss_sup=0.319167 loss_reg=0.000000
+[seed 0][epoch 0] step 300/317 loss_sup=0.229821 loss_reg=0.000000
+[seed 0][epoch 0] step 317/317 loss_sup=0.289609 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.311727
+ap_test: 0.867929
+gap_test: 0.372054
+checkpoint_saved: paper_reproduction_results/phase0_wavy_van_seed0/checkpoints/celeba_wavy_van_eo_seed0_best.pt
+
+Epoch: 1
+[seed 0][epoch 1] step 100/317 loss_sup=0.256348 loss_reg=0.000000
+[seed 0][epoch 1] step 200/317 loss_sup=0.186648 loss_reg=0.000000
+[seed 0][epoch 1] step 300/317 loss_sup=0.176861 loss_reg=0.000000
+[seed 0][epoch 1] step 317/317 loss_sup=0.158055 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.229596
+ap_test: 0.860735
+gap_test: 0.451471
+
+Epoch: 2
+[seed 0][epoch 2] step 100/317 loss_sup=0.146599 loss_reg=0.000000
+[seed 0][epoch 2] step 200/317 loss_sup=0.143403 loss_reg=0.000000
+[seed 0][epoch 2] step 300/317 loss_sup=0.137074 loss_reg=0.000000
+[seed 0][epoch 2] step 317/317 loss_sup=0.131562 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.152198
+ap_test: 0.853098
+gap_test: 0.420534
+
+Epoch: 3
+[seed 0][epoch 3] step 100/317 loss_sup=0.092158 loss_reg=0.000000
+[seed 0][epoch 3] step 200/317 loss_sup=0.074704 loss_reg=0.000000
+[seed 0][epoch 3] step 300/317 loss_sup=0.070793 loss_reg=0.000000
+[seed 0][epoch 3] step 317/317 loss_sup=0.068205 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.095269
+ap_test: 0.852873
+gap_test: 0.414313
+
+Epoch: 4
+[seed 0][epoch 4] step 100/317 loss_sup=0.072138 loss_reg=0.000000
+[seed 0][epoch 4] step 200/317 loss_sup=0.050690 loss_reg=0.000000
+[seed 0][epoch 4] step 300/317 loss_sup=0.040501 loss_reg=0.000000
+[seed 0][epoch 4] step 317/317 loss_sup=0.035849 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.058617
+ap_test: 0.852426
+gap_test: 0.346172
+--------INDEX---------
+idx: 1
+ap_test: 0.867929
+gap_test: 0.372054
+time costs:1485.906695 s
+--------AVG---------
+Average Precision: 0.867929 ± 0.000000
+eo gap: 0.372054 ± 0.000000
