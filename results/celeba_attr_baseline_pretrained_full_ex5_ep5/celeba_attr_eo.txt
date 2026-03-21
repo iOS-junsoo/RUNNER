@@ -1,0 +1,26 @@
+Task: attractive
+Model: alexnet
+Method: van
+Mode: eo
+Device: cuda
+Pretrained: True
+AMP: False
+Train workers: 8
+Eval workers: 4
+Seed set to 0
+On experiment 0
+
+Epoch: 0
+[seed 0][epoch 0] step 100/317 loss_sup=0.422966 loss_reg=0.000000
+[seed 0][epoch 0] step 200/317 loss_sup=0.402376 loss_reg=0.000000
+[seed 0][epoch 0] step 300/317 loss_sup=0.363365 loss_reg=0.000000
+[seed 0][epoch 0] step 317/317 loss_sup=0.401738 loss_reg=0.000000
+loss_reg: 0.000000
+loss_sup: 0.404243
+ap_test: 0.909204
+gap_test: 0.521133
+
+Epoch: 1
+[seed 0][epoch 1] step 100/317 loss_sup=0.368874 loss_reg=0.000000
+[seed 0][epoch 1] step 200/317 loss_sup=0.367899 loss_reg=0.000000
+[seed 0][epoch 1] step 300/317 loss_sup=0.331464 loss_reg=0.000000
